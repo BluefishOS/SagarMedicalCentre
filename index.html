@@ -53,6 +53,12 @@
         iframe{
             display: none !important;
         }
+        #google_translate_element{
+            position: fixed;
+            z-index: 9999999999;
+            right: -64px;
+            bottom: 80px;
+        }
         #google_translate_element span{
             display: none !important;
         }
@@ -74,7 +80,7 @@
 </head>
 
 <body>
-   
+    <div id="google_translate_element"></div>
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -122,7 +128,6 @@
                                     <li class="nav-item"><a class="page-scroll" href="#three">Services</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#four">Visit Time</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#five">Contact</a></li>
-                                    <li class="nav-item"><a id="google_translate_element"></a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->
